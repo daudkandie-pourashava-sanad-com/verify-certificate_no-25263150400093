@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Verification</title>
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
+            <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
+                <a href="/certificate/verify" class="flex items-center">
+                <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
+                    দাউদকান্দি পৌরসভা
+                </span>
+            </a>
+                <div class="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1" id="mobile-menu-2">
+                    <div class="flex items center">
+                        <a href="https://daudkandi.e-pourashava-sanad.com" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">হোম</a>
+                        <a href="https://daudkandi.e-pourashava-sanad.com/verify" class="text-gray-800 dark:text-white hover:bg-gray-50 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 dark:hover:bg-gray-700 focus:outline-none dark:focus:ring-gray-800">ডকুমেন্ট ভেরিফিকেশন</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container mx-auto mt-12">
+            <div class="flex justify-center items-center">
+                <div class="text-center">
+                    <h1 class="text-4xl font-bold text-gray-800 dark:text-white">ডকুমেন্ট ভেরিফিকেশন</h1>
+                    <p class="text-lg text-gray-600 dark:text-gray-300 mt-2">আপনার সনদ নম্বর দিয়ে আপনার ডকুমেন্ট ভেরিফিকেশন করুন</p>
+                    <form action="https://daudkandi.e-pourashava-sanad.com/verify" method="GET" class="mt-6">
+                        <input type="hidden" name="_token" value="9e3B63KwpbyaNhcCm6jb7tABQFCX6IVbKhNkwJ1k" autocomplete="off"> <input type="text" value="25263150400093" name="certificate_no" placeholder="ডকুমেন্ট নম্বর" class="w-full px-4 py-2 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-300 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-300 dark:focus:ring-blue-600"
+                        />
+                        <div class="flex justify-center mt-4">
+                            <button type="submit" class="bg-blue-700 text-white font-medium rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-300 dark:bg-blue-600 dark:focus:ring-blue-800 mr-2">যাচাই করুন</button>
+                            <a href="https://daudkandi.e-pourashava-sanad.com/verify" class="bg-gray-700 text-white font-medium rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-gray-300 dark:bg-gray-600 dark:focus:ring-blue-800">ক্লিয়ার করুন</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="mt-4 text-center">
+                <h2 class="text-2xl font-bold text-gray-800 dark:text-white">ডকুমেন্ট বিবরণ</h2>
+                <div class="mt-4">
+
+                    <p class="text-lg text-gray-600 dark:text-gray-300">
+                        সনদ নম্বর:
+                        <span class="bg-blue-100 text-blue-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 md:inline">
+                        ২৫২৬৩১৫০৪০০০৯৩
+                    </span>
+                    </p>
+                    <p class="text-lg text-gray-600 dark:text-gray-300">নাম: মোঃ নেয়ামুল হক</p>
+                    <p class="text-lg text-gray-600 dark:text-gray-300">
+                        পিতার নাম: মোহাম্মদ আরফানুল হক</p>
+
+
+                    <h3 class="font-semibold text-gray-800 mt-2">মৃত ব্যক্তির তথ্য:</h3>
+                    <p class="text-lg text-gray-600 dark:text-gray-300">নাম: মোহাম্মদ আরফানুল হক</p>
+                    <p class="text-lg text-gray-600 dark:text-gray-300">পিতা : মৃত আব্দুল আজিজ সরকার</p>
+
+
+
+                    <p class="text-lg text-gray-600 dark:text-gray-300">সনদের ধরণ: ওয়ারিশ সনদ</p>
+                    <p class="text-lg text-gray-600 dark:text-gray-300">সনদের মেয়াদকাল: ২৫/১১/২০২৫ তারিখ পর্যন্ত
+                    </p>
+                    <p class="text-lg text-gray-600 dark:text-gray-300">স্ট্যাটাস:
+                        <span class="bg-green-100 text-green-800 text-xs font-semibold mr-2 px-2.5 py-0.5 rounded dark:bg-green-200 dark:text-green-800">
+                        APPROVED
+                    </span>
+                    </p>
+                </div>
+                <div class="my-4">
+                    <div class="overflow-x-auto">
+                        <h3 class="font-semibold text-gray-800 mb-4">ওয়ারিশগনের নামের তালিকা</h3>
+
+                        <table class="min-w-full bg-white border border-gray-300">
+                            <thead class="bg-gray-100 border-b">
+                                <tr>
+                                    <th class="px-4 py-2 text-left text-gray-600 font-semibold">ক্র: নং</th>
+                                    <th class="px-4 py-2 text-left text-gray-600 font-semibold">নাম</th>
+                                    <th class="px-4 py-2 text-left text-gray-600 font-semibold">পরিচয় পত্রের ধরণ
+                                    </th>
+                                    <th class="px-4 py-2 text-left text-gray-600 font-semibold">পরিচয় পত্রের নম্বর
+                                    </th>
+                                    <th class="px-4 py-2 text-left text-gray-600 font-semibold">জন্ম তারিখ</th>
+                                    <th class="px-4 py-2 text-left text-gray-600 font-semibold">সম্পর্ক</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="border-b hover:bg-gray-50">
+                                    <td class="px-4 py-2 text-gray-700">১</td>
+                                    <td class="px-4 py-2 text-gray-700">মোঃ ওবায়দুল হক</td>
+                                    <td class="px-4 py-2 text-gray-700">জাতীয় পরিচয় পত্র</td>
+                                    <td class="px-4 py-2 text-gray-700">
+                                        ২৮০৪২০৫১৮১
+                                    </td>
+                                    <td class="px-4 py-2 text-gray-700">১৯৭২-০১-০৫</td>
+                                    <td class="px-4 py-2 text-gray-700">
+                                        পুত্র
+                                    </td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-50">
+                                    <td class="px-4 py-2 text-gray-700">২</td>
+                                    <td class="px-4 py-2 text-gray-700">মোঃ এহতেশামুল হক</td>
+                                    <td class="px-4 py-2 text-gray-700">জাতীয় পরিচয় পত্র</td>
+                                    <td class="px-4 py-2 text-gray-700">
+                                        ১৯৭৫২৬৯৪৮১৪৯২৯৫৩০
+                                    </td>
+                                    <td class="px-4 py-2 text-gray-700">১৯৭৫-০৯-০১</td>
+                                    <td class="px-4 py-2 text-gray-700">
+                                        পুত্র
+                                    </td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-50">
+                                    <td class="px-4 py-2 text-gray-700">৩</td>
+                                    <td class="px-4 py-2 text-gray-700">মোঃ নেয়ামুল হক</td>
+                                    <td class="px-4 py-2 text-gray-700">জাতীয় পরিচয় পত্র</td>
+                                    <td class="px-4 py-2 text-gray-700">
+                                        ৯৫৫২১১১৩১৩
+                                    </td>
+                                    <td class="px-4 py-2 text-gray-700">১৯৮১-০৩-০৩</td>
+                                    <td class="px-4 py-2 text-gray-700">
+                                        পুত্র
+                                    </td>
+                                </tr>
+                                <tr class="border-b hover:bg-gray-50">
+                                    <td class="px-4 py-2 text-gray-700">৪</td>
+                                    <td class="px-4 py-2 text-gray-700">আফসানা আরেফিন</td>
+                                    <td class="px-4 py-2 text-gray-700">জাতীয় পরিচয় পত্র</td>
+                                    <td class="px-4 py-2 text-gray-700">
+                                        ৫০৫৪২০৮৯১২
+                                    </td>
+                                    <td class="px-4 py-2 text-gray-700">১৯৮৪-১২-০৬</td>
+                                    <td class="px-4 py-2 text-gray-700">
+                                        কন্যা
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
+
+    <script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496" integrity="sha512-ZE9pZaUXND66v380QUtch/5sE9tPFh2zg45pR2PB0CVkCtOREv2AJKkSidISWkysEuQ0EH8faUU5du78bx87UQ==" data-cf-beacon='{"version":"2024.11.0","token":"71f283b387404644b0af240839d6747d","r":1}'
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
